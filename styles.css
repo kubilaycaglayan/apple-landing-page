@@ -29,7 +29,7 @@ nav {
 }
 nav img {
     width: 980px;
-  
+    
 }
 nav ul {
     position: absolute ;
@@ -49,16 +49,21 @@ nav ul li {
     width: 100%;
     height: 36px;
     align-items: center;
-    padding-top: 4px;
+    padding-top: 9px;
     border-right: 0.7px rgba(68, 68, 68, 0.822) solid;
+    font-size: 14px;
+    font-family: 'Lucida Sans'
     
 }
 nav ul li:hover {
     background-color: rgba(68, 68, 68, 0.822);
 }
-ul li img {
+.applogo {
     width: 18px;
-    color: white;
+    position: relative;
+    top: -3px;
+    
+  
 }
 nav input {
     position: relative;
@@ -74,11 +79,6 @@ nav input {
 }
 .input {
     border: transparent;
-}
-.titles * {
-   
-    
- 
 }
 
 
