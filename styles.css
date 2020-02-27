@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  
+
+}
+a{
+    text-decoration: none;
+    color: #08c;
+}
+a:hover {
+    text-decoration: underline;
+}
+.firstrow img {
+    width: 1263px;
+}
+.secondrow {
+    width: 1261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondrow {
+    position: relative;
+    top: -4px;
+}
+.secondrow img {
+    width: 25%;
+    margin: 1px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 980px;
+    height: 80px;
+    font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.wrapper p {
+    
+    float: left;
+    width: 49%;
+    padding-top: 2%;    
+} 
+.wrapper ul {
+    
+    float: right;
+    width: 51%;
+    padding-top: 1.7%;
+
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none outside ;
+}
+
+ul li:not(.noborder) {
+    border-right: 1px rgb(190, 190, 190) solid;
+    padding-right: 5px;
+    
+}
+
+
+.border {
+    border-right: 1px rgb(190, 190, 190) solid;
+}
+
+.wrapper div {
+    width: 50%;
+    float: left;
+}
+
+.wrapper div p {
+    
+   
+    border: 1px red solid;
+}
