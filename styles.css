@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #08c;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    width: 950px;
+    background: linear-gradient(rgb(131, 131, 131), rgb(131, 131, 131) 50%, rgb(99, 99, 99) 52%, rgb(126, 126, 126));
+    border-radius: 5px;
+}
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    cursor: pointer;
+}
+.appplogo {
+    width: 100%;
+    background-image: url("images/applelogo.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav ul li {
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    align-items: center;
+    padding-top: 9px;
+    border-right: 0.7px rgba(68, 68, 68, 0.822) solid;
+    font-size: 14px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+nav ul li:hover:not(.lastitem) {
+    background-color: rgba(68, 68, 68, 0.822);
+}
+.applogo {
+    width: 18px;
+    position: relative;
+    top: -3px;
+}
+input {
+    color: white;
+    width: 80%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: rgb(131, 131, 131);
+    border: 1px rgb(97, 97, 97) solid;
+    height: 21px;
+    outline: none;
+    padding-left: 25px;
+}
+.firstitem {
+    border-radius: 5px 0 0 5px;
+}
+.lastitem {
+    border-radius: 0 5px 5px 0;
+    border-right: none;
+    width: 130%;
+}
+svg {
+    position: relative;
+    fill: white;
+    width: 15px;
+    height: 15px;
+    cursor: inherit;
+    left: 20px;
+    top: 5px;
+}
+.firstrow {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background-image: url("images/main-hero.jpg");
+    background-position: bottom;
+    background-size: 1440px 1315px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 12%;
+}
+.imgbot1 {
+    background-image: url(images/row1.jpg);
+}
+.imgbot2 {
+    background-image: url(images/row2.jpg);
+}
+.imgbot3 {
+    background-image: url(images/row3.jpg);
+}
+.imgbot4 {
+    background-image: url(images/row4.jpg);
+}
+.secondrow div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.secondrow {
+    width: 100%;
+    max-width: 1440px;
+    margin: 2px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 200px;
+    gap: 2px;
+}
+.imgfont {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.font1 {
+    background-image: url("images/h1.png");
+    height: 90px;
+    width: 50%;
+}
+.font2 {
+    background-image: url("images/h2.png");
+    width: 65%;
+    height: 100px;
+}
+.font3 {
+    height: 50px;
+}
+.play1 {
+    background-image: url("images/playh3.png");
+    width: 65%;
+    height: 70px;
+    position: absolute;
+    cursor: pointer;
+}
+.play2 {
+    background-image: url("images/playh3-2.png");
+    visibility: hidden;
+    width: 65%;
+    height: 70px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+.play1:hover {
+    display: none;
+}
+.play1:hover + .play2 {
+    visibility: visible;
+    cursor: pointer;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    text-align: left;
+}
+.onlinestore {
+    width: 100%;
+    float: left;
+    align-items: center;
+    margin-top: 1%;
+    padding-left: 7px;
+}
+.onlinestore p {
+    float: left;
+    width: 49%;
+    padding-top: 3px;
+}
+.onlinestore ul {
+    float: right;
+    width: 51%;
+    display: flex;
+    align-items: center;
+    list-style: none outside;
+    justify-content: space-around;
+}
+footer ul li:not(.noborder) {
+    border-right: 1px rgb(190, 190, 190) solid;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.border {
+    border-right: 1px rgb(190, 190, 190) solid;
+}
+.copyright {
+    display: block;
+    width: 50%;
+}
+.copyright p {
+    position: relative;
+    top: 13px;
+    display: inline;
+    justify-content: space-evenly;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+footer {
+    color: #6e6e6e;
+    height: 90px;
+}
+.noborder {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa_2x.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
