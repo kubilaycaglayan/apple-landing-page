@@ -15,11 +15,11 @@ a:hover {
 	text-decoration: underline;
 }
 nav {
-	position: absolute ;
+	position: absolute;
 	top: 83px;
 	left: 16%;
 	height: 36px;
-	margin: 0 ;
+	margin: 0;
 	padding: 0;
 	width: 73%;
 	z-index: 99;
@@ -30,7 +30,7 @@ nav ul {
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
-	flex-direction: row; 
+	flex-direction: row;
 	color: white;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
 	cursor: pointer;
@@ -43,14 +43,14 @@ nav ul {
 	background-position: center;
 }
 nav ul li {
-	display: inline-block;    
+	display: inline-block;
 	width: 100%;
 	height: 36px;
 	align-items: center;
 	padding-top: 9px;
 	border-right: 0.7px rgba(68, 68, 68, 0.822) solid;
 	font-size: 14px;
-	font-family: 'Lucida Sans'
+	font-family: 'Lucida Sans';
 }
 nav ul li:hover:not(.lastitem) {
 	background-color: rgba(68, 68, 68, 0.822);
