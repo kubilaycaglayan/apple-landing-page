@@ -7,7 +7,6 @@ body {
     width: 1260px;
     text-align: center;
 }
-
 a{
     text-decoration: none;
     color: #08c;
@@ -17,7 +16,6 @@ a:hover {
 }
 nav {
     position: absolute ;
-    
     top: 83px;
     left: 16%;
     height: 36px;
@@ -36,7 +34,6 @@ nav ul {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     cursor: pointer;
-    
 }
 .appplogo {
     width: 100%;
@@ -54,7 +51,6 @@ nav ul li {
     border-right: 0.7px rgba(68, 68, 68, 0.822) solid;
     font-size: 14px;
     font-family: 'Lucida Sans'
-    
 }
 nav ul li:hover:not(.lastitem) {
     background-color: rgba(68, 68, 68, 0.822);
@@ -75,7 +71,6 @@ input {
     outline: none;
     padding-left: 25px;
 }
-
 .firstitem{
     border-radius: 5px 0 0 5px;
 }
@@ -83,7 +78,6 @@ input {
     border-radius: 0 5px 5px 0;
     border-right: none;
     width: 130%;
-    
 }
 svg {
     position: absolute;
@@ -94,8 +88,6 @@ svg {
     right: 90px;
     top: 14px;
 }
-
-
 .firstrow {
     position: relative;
     width: 100%;
@@ -110,7 +102,6 @@ svg {
     align-items: center;
     padding-bottom: 8%;
 }
-
 .imgbot1 { 
     background-image: url(images/row1.jpg);
     background-size: 100%;
@@ -126,42 +117,35 @@ svg {
 .imgbot4 { 
     background-image: url(images/row4.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;}
-
+    background-repeat: no-repeat;
+}
 .secondrow {
     width: 100%;
     margin-top: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 170px;
     gap: 2px;
 }
-
-
 .imgfont {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-   
 }
 .font1 {
     background-image: url("images/h1.png");
     height: 90px;
     width: 50%;
-    
 }
 .font2 {
     background-image: url("images/h2.png");
     width: 65%;
     height: 100px;
 }
-
 .font3 {
     height: 50px;
 }
-
-
 .play1 {
     background-image: url("images/playh3.png");
     width: 65%;
@@ -185,13 +169,12 @@ svg {
     visibility: visible;
     cursor: pointer;
 }
-
 .wrapper {
-
     margin: 0 auto;
-    width: 90%;
-    font: 10.2px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    width: 80%;
+    font: 10px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     text-align: left;
+
 }
 .onlinestore{
     width: 100%;
@@ -208,27 +191,22 @@ svg {
 .onlinestore ul {
     float: right;
     width: 51%;
-    
     display: flex;
     align-items: center;
     list-style: none outside ;
+    justify-content: space-around;
 }
-
 footer ul li:not(.noborder) {
     border-right: 1px rgb(190, 190, 190) solid;
     padding-right: 3px;
-    padding-left: 2px;
-    
+    padding-left: 3px;
 }
-
 .border {
     border-right: 1px rgb(190, 190, 190) solid;
 }
 .copyright {
     display: block;
-    
     width: 50%;
-    
 }
 .copyright p{
     position: relative;
@@ -238,9 +216,14 @@ footer ul li:not(.noborder) {
     float: left;
     padding-left: 7px;
     padding-right: 7px;
-
 }
 footer {
     color: #6e6e6e;
-    height: 90px
+    height: 90px;
+}
+.noborder {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa_2x.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
 }
