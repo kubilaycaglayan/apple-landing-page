@@ -15,16 +15,16 @@ a:hover {
 	text-decoration: underline;
 }
 nav {
-	osition: absolute ;
-	op: 83px;
-	eft: 16%;
-	eight: 36px;
-	argin: 0 ;
-	adding: 0;
-	idth: 73%;
-	-index: 99;
-	ackground: linear-gradient(rgb(131, 131, 131) ,rgb(131, 131, 131) 50%, rgb(99, 99, 99) 52%, rgb(126, 126, 126)  );
-	order-radius: 5px;
+	position: absolute ;
+	top: 83px;
+	left: 16%;
+	height: 36px;
+	margin: 0 ;
+	padding: 0;
+	width: 73%;
+	z-index: 99;
+	background: linear-gradient(rgb(131, 131, 131) ,rgb(131, 131, 131) 50%, rgb(99, 99, 99) 52%, rgb(126, 126, 126)  );
+	border-radius: 5px;
 }
 nav ul {
 	padding: 0;
@@ -105,15 +105,18 @@ svg {
 .imgbot1 {
 	background-image: url(images/row1.jpg);
 	background-size: 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 .imgbot2 {
 	background-image: url(images/row2.jpg);
 	background-size: 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 .imgbot3 {
 	background-image: url(images/row3.jpg);
 	background-size: 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+}
 .imgbot4 {
 	background-image: url(images/row4.jpg);
 	background-size: 100%;
