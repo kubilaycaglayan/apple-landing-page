@@ -6,7 +6,7 @@
 body {
     margin: 0 auto;
     text-align: center;
-    width: 1263px;
+    width: 1440px;
     
 }
 a{
@@ -113,22 +113,32 @@ svg {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-
-    padding-bottom: 11%;
+    padding-bottom: 8%;
 }
 
-/* .imgbot1 { background-image: url(images/row1.png);}
-.imgbot2 { background-image: url(images/row2.png);}
-.imgbot3 { background-image: url(images/row3.png);}
-.imgbot4 { background-image: url(images/row4.png);} */
+.imgbot1 { 
+    background-image: url(images/row1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;}
+.imgbot2 { 
+    background-image: url(images/row2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;}
+.imgbot3 { 
+    background-image: url(images/row3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;}
+.imgbot4 { 
+    background-image: url(images/row4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;}
 
 .secondrow {
-   
+    margin-top: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
-    
-
+    grid-template-rows: 200px;
+    gap: 2px;
 }
 
 
@@ -147,7 +157,7 @@ svg {
 }
 .font2 {
     background-image: url("images/h2.png");
-    width: 80%;
+    width: 65%;
     height: 100px;
 }
 
@@ -158,7 +168,7 @@ svg {
 
 .play1 {
     background-image: url("images/playh3.png");
-    width: 80%;
+    width: 65%;
     height: 70px;
     position: absolute;
     cursor: pointer;
@@ -166,11 +176,15 @@ svg {
 .play2 {
     background-image: url("images/playh3-2.png");
     visibility: hidden;
-    width: 80%;
+    width: 65%;
     height: 70px;
     cursor: pointer;
+    position: relative;
+    top: 1px;
 }
-
+.play1:hover{
+    display: none;
+}
 .play1:hover + .play2 {
     visibility: visible;
     cursor: pointer;
