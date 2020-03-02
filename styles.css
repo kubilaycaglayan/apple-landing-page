@@ -2,6 +2,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    
 }
 body {
     margin: 0 auto;
@@ -19,8 +20,8 @@ a:hover {
 nav {
     position: absolute ;
     
-    top: 85px;
-    left: 15%;
+    top: 83px;
+    left: 16%;
     height: 36px;
     margin: 0 ;
     padding: 0;
@@ -41,7 +42,7 @@ nav ul {
 }
 .appplogo {
     width: 100%;
-    background-image: url("applelogo.png");
+    background-image: url("images/applelogo.png");
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,10 +77,6 @@ input {
     outline: none;
     padding-left: 25px;
 }
-input:hover{
-    background-color: ivory;
-}
-
 
 .firstitem{
     border-radius: 5px 0 0 5px;
@@ -105,7 +102,7 @@ svg {
     position: relative;
     width: 100%;
     height: 538px;
-    background-image: url("main-hero.jpg");
+    background-image: url("images/main-hero.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,6 +131,7 @@ svg {
     background-repeat: no-repeat;}
 
 .secondrow {
+    width: 100%;
     margin-top: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -150,7 +148,7 @@ svg {
    
 }
 .font1 {
-    background-image: url("h1.png");
+    background-image: url("images/h1.png");
     height: 90px;
     width: 50%;
     
