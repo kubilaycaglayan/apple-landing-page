@@ -107,10 +107,10 @@ svg {
     background-image: url(images/row1.jpg);
 }
 .imgbot2 {
-    background-image: url(images/row2.jpg); 
+    background-image: url(images/row2.jpg);
 }
 .imgbot3 {
-    background-image: url(images/row3.jpg); 
+    background-image: url(images/row3.jpg);
 }
 .imgbot4 {
     background-image: url(images/row4.jpg);
@@ -136,7 +136,6 @@ svg {
 }
 .font1 {
     background-image: url("images/h1.png");
-    
     height: 90px;
     width: 50%;
 }
