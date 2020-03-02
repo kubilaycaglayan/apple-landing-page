@@ -18,31 +18,37 @@ a:hover {
 }
 
 nav {
-    position: relative ;
-    display: block;
-    top: 65px;
-    height: 0;
-    margin: 0 auto;
+    position: absolute ;
+    
+    top: 85px;
+    left: 15%;
+    height: 36px;
+    margin: 0 ;
+    padding: 0;
     width: 980px;
     z-index: 99;
+    background: linear-gradient(rgb(131, 131, 131) ,rgb(131, 131, 131) 35%, rgb(87, 87, 87), rgb(126, 126, 126)  );
+    border-radius: 5px;
     
 }
-nav img {
-    width: 980px;
-    
-}
+
 nav ul {
-    position: absolute ;
+    padding: 0;
     display: flex;
-    top: 0px;
-    left: -40px;
-    justify-content: space-around;
-    width: 89%;
-    flex-direction: row;
-    
+    justify-content: space-between;
+    flex-direction: row; 
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     cursor: pointer;
+    
+}
+.appplogo {
+    width: 100%;
+    background-image: url("applelogo.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px red solid;
 }
 nav ul li {
     display: inline-block;    
@@ -55,35 +61,39 @@ nav ul li {
     font-family: 'Lucida Sans'
     
 }
-nav ul li:hover {
+nav ul li:hover:not(.lastitem) {
     background-color: rgba(68, 68, 68, 0.822);
 }
 .applogo {
     width: 18px;
     position: relative;
     top: -3px;
-    
-  
 }
-nav input {
-    position: relative;
-    width: 75px;
-    background-color: transparent;
-    outline: transparent;
-    border: transparent;
+input {
+    /* color: white; */
+    width: 80%;
+    font-family: 'Lucida Sans';
     border-radius: 5px;
-    left: 780px;
-    top: -120px;
-    color: white;
-    font-family: 'Lucida Sans'
+    
 }
-.input {
-    border: transparent;
+.firstitem{
+    border-radius: 5px 0 0 5px;
+}
+.lastitem {
+    border-radius: 0 5px 5px 0;
+    border-right: none;
+    width: 130%;
 }
 
 
-.firstrow img {
+.firstrow {
+    position: relative;
     width: 100%;
+    height: 538px;
+    background-image: url("main-hero.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .secondrow {
    
