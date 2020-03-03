@@ -21,6 +21,7 @@ Fork this project to your local machine
 # Authors
 Kubilay Çağlayan
 
+kblycaglayan@gmail.com
 Github: @kblycaglayan
 
 # Contributing
