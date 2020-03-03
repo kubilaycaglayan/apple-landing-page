@@ -7,7 +7,7 @@ Apple Clone Website
 2. CSS
 
 # Live Demo 
-[Click For Live Page](https://raw.githack.com/kblycaglayan/apple-clone/apple-clone/index.html)
+[Click For Live Page](https://raw.githack.com/kblycaglayan/apple-clone/master/index.html)
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
