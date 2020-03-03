@@ -20,7 +20,7 @@ Fork this project to your local machine
 
 # Authors
 Kubilay Çağlayan
-[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
+
 Github: @kblycaglayan
 
 # Contributing
